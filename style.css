@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins', 'roboto';
+    background: linear-gradient(to bottom, #f7f3ef, #dcd8df);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #738a96;
+    padding: 90px;
+    border-radius: 39px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+select {
+    width: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #d6ac52;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#result {
+    font-weight: bold;
+    color: #f2f8f7;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#treatment {
+    font-weight: normal;
+    color: #b18585;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Media Queries */
+
+/* Tampilan Desktop */
+@media (min-width: 768px) {
+    .container {
+        width: 70%;
+    }
+}
+
+/* Tampilan Tablet */
+@media (max-width: 767px) {
+    .container {
+        width: 50%;
+    }
+}
+
+/* Tampilan Mobile */
+@media (max-width: 480px) {
+    .container {
+        width: 80%;
+    }
+    select {
+        width: 100%;
+        padding: 1%;
+        font-family: 'Roboto', sans-serif;
+    }
+}
