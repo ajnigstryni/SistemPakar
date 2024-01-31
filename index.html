@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Pakar Diagnosa PENYAKIT PADA BURUNG PUYUH </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistem Pakar</h1>
+        <h2>Diagnosa  PENYAKIT PADA BURUNG PUYUH </h2>
+        <form id="diagnosisForm">
+            <label for="symptoms">Pilih Salah Satu Gejala:</label>
+        <select id="symptoms" multiple>
+            <option value="1">Lesu, bulu kusam, mata terkatup .</option>
+            <option value="2">Bersin, mendengkur kotoran encer kehijauan.</option>
+            <option value="3">Lesu, bersin, kurus, air mata sering keluar.</option>
+            <option value="4">nafsu makan berkurang ,Mencret,menggigil.</option>
+            <option value="5">Timbul keropeng pada bulu,bila dilepas keluar darah </option>
+            <option value="6">lesu, nafsu makan berkurang, mencret</option>
+            <option value="7">Lesu ,kurus,lemah.</option>
+            <option value="8">Lesu, bulu kusam, mata dan hidung keluar lendir </option>
+        </select>
+            <button type="button" onclick="diagnose()">Diagnosa</button>
+        </form>
+        <div id="result"></div>
+        <div id="treatment"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
